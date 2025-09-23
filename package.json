@@ -1,0 +1,10 @@
+{
+  "name": "topic-to-video-pipeline",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "api": "uvicorn api.server:app --host 0.0.0.0 --port 8000",
+    "cli": "python -m app.cli.main 'sample topic'"
+  }
+}
