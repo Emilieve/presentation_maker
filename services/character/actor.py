@@ -2,7 +2,7 @@ from pathlib import Path
 from typing import List
 
 
-DATA_DIR = Path("/workspace/data")
+DATA_DIR = Path(__file__).parent.parent.parent / "data"
 OUTPUTS_DIR = DATA_DIR / "outputs"
 
 

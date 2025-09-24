@@ -1,0 +1,17 @@
+{
+  "topic": "Black holes",
+  "scenes": [
+    {
+      "id": "s1",
+      "description": "Opening animation for the hook"
+    },
+    {
+      "id": "s2",
+      "description": "Main content visuals"
+    },
+    {
+      "id": "s3",
+      "description": "Closing animation and CTA"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ from typing import Tuple
 # from services.openai.client import create_openai_client  # Uncomment when using real API
 
 
-DATA_DIR = Path("/workspace/data")
+DATA_DIR = Path(__file__).parent.parent.parent / "data"
 OUTPUTS_DIR = DATA_DIR / "outputs"
 TEMP_DIR = DATA_DIR / "temp"
 
